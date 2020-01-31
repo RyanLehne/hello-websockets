@@ -1,0 +1,7 @@
+
+html-5 (tab) creates the html layout automagically
+
+npm install --save express http url ws
+
+entered in console web-page
+ws = new WebSocket('ws://localhost:8080');
