@@ -15,7 +15,7 @@
 
     <input name="message"/>
     <button id="sendMessage">Send chat message</button>
-    <script>
+    <script> 
     const ws = new WebSocket('ws://localhost:8080');
     const button = document.querySelector('#sendMessage');
     const message = document.querySelector('[name=message]');
@@ -28,6 +28,6 @@
     ws.addEventListener('message',function(){
         log.innerHTML += '\n' + event.data;
     });
-    </script>
+    </script> 
 </body>
 </html>
